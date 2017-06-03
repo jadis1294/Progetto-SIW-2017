@@ -11,10 +11,12 @@ import javax.persistence.NamedQuery;
 @NamedQuery(name = "findAll", query = "SELECT o FROM Opera o")
 public class Opera {
 	
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
-
+	
+	
 	@Column (nullable = false)
 	private String titolo;
 	private Integer annoCreazione;
@@ -22,6 +24,22 @@ public class Opera {
 	private Integer altezza;
 	private Integer lunghezza;
 	private Autore autore;
+	
+	
+	public Opera(){
+		
+	}
+	
+	public Opera(String titolo, Integer annoCreazione, String tecnica, Integer altezza, Integer lunghezza) {
+	
+		this.titolo = titolo;
+		this.annoCreazione = annoCreazione;
+		this.tecnica = tecnica;
+		this.altezza = altezza;
+		this.lunghezza = lunghezza;
+		
+	}
+	
 	
 	
 	public String getTitolo() {

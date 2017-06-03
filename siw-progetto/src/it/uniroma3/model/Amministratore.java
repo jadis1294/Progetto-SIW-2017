@@ -6,13 +6,28 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 public class Amministratore {
+	
 	@Column (nullable = false)
 	private String nome;
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private String nickname;
+	
 	@Column (nullable = false)
 	private String password;
+	
+	
+	public Amministratore(){
+		
+	}
+	
+	public Amministratore(String nome, String password, String nickname){
+		this.nome=nome;
+		this.password=password;
+		this.nickname=nickname;
+		
+	}
 	public String getNome() {
 		return nome;
 	}

@@ -19,5 +19,12 @@
 	<classpathentry kind="lib" path="/home/luca/progetti/Librerie/jsf-api-2.0.jar.zip"/>
 	<classpathentry kind="lib" path="/home/luca/progetti/Librerie/jsf-api-2.0.jar"/>
 	<classpathentry kind="lib" path="/home/luca/progetti/Librerie/jsf-facelets.jar"/>
+	<classpathentry kind="lib" path="/home/luca/progetti/librerie/jsf-api.jar"/>
+	<classpathentry kind="lib" path="/home/luca/progetti/librerie/jsf-impl-2.2.8.jar"/>
+	<classpathentry kind="lib" path="/home/luca/progetti/librerie/standard-1.1.2.jar"/>
+	<classpathentry kind="lib" path="/usr/share/apache-tomee-webprofile-7.0.2/lib/javaee-api-7.0-1.jar"/>
+	<classpathentry kind="lib" path="/usr/share/apache-tomee-webprofile-7.0.2/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="/usr/share/apache-tomee-webprofile-7.0.2/lib/myfaces-api-2.2.11.jar"/>
+	<classpathentry kind="lib" path="/usr/share/apache-tomee-webprofile-7.0.2/lib/myfaces-impl-2.2.11.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
